@@ -1,0 +1,180 @@
+/* Inicio */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* fonts */
+body{
+    font-family: 'Koulen', cursive;
+}
+.simple{
+    font-family: 'Roboto', sans-serif;
+}
+.font{
+    font-family: 'Roboto', sans-serif;
+}
+/* header */
+.gif{
+    width: 180px;
+    margin: auto;
+}
+h1{
+    font-size: 63px;
+}
+.h1dif{
+    padding-top: 30px;
+}
+.h2dif{
+    font-size: 32px;
+}
+.font{
+    font-size: 20px;
+}
+.simple{
+    font-size: 20px;
+}
+/* nav */
+a{
+    color: #000000;
+}
+a:hover{
+    color: #00f7fb;
+}
+nav ul li{
+    display: inline-block;
+    border: 2px solid #010757;
+    margin: 20px;
+    
+}
+.lista--mod li, a{
+    display: inline-block;
+    padding: 10px;
+
+}
+nav{
+    background-color: #1f6194;
+}
+/* i */
+i{
+    color: black;
+    font-size: 50px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+i:hover{
+    color: #0b68e3;
+}
+/* header */
+header h1{
+    display: flex;
+    justify-content: center;
+}
+header img{
+    display: flex;
+    flex-flow: wrap;
+
+}
+/* section */
+.simple{
+    border: 4px solid #0a3757;
+    margin: 20px 40px;
+    padding: 20px;
+    background-color: #2897e7;;
+}
+.bufa{
+    border: 4px solid #0a3757;
+    margin: 30px 40px;
+    padding: 10px;
+    background-color: #2897e7;
+}
+
+section h2{
+    display: flex;
+    justify-content: center;
+}
+section p{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border: 20px;
+}
+section article img{
+    display: flex;
+    justify-content: center;
+}
+/* footer */
+#foot{
+    background-color: #798088;
+    display: flex;
+    justify-content: center;
+}
+
+/* Tienda */
+
+table{
+    display: flex;
+    justify-content: center;
+    text-align: end;
+}
+th{
+    background-color: rgb(43, 43, 226);
+    border-bottom: 5px solid;
+    color: #320064;
+}
+.trdif{
+    background-color: hwb(200 17% 19% / 0.799);
+    color: white;
+}
+tr{
+    background-color: aliceblue;
+    border-bottom: 5px solid;
+    color: rgb(14, 126, 179);
+}
+tr, td, th{
+    padding: 20px;
+}
+
+section table{
+    background-image: url(../assets/img/ca.jpg);
+    background-size: cover;
+}
+section article h2{
+    display: flex;
+    justify-content: center;
+}
+section article h3{
+    display: flex;
+    justify-content: center;
+}
+section article table{
+    display: flex;
+    justify-content: center;
+    border: 50px 50px;
+
+}
+section article img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/* Ubicacion */
+section iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ubi{
+    background-image: url(../assets/img/shop.jpg);
+    
+}
+
+/* Contacto */
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
